@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Web Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="page">
+    <nav class="navbar">
+        <div class="brand">Web Portfolio</div>
+        <div>
+            <a class="nav-link" href="#home">Home</a>
+            <a class="nav-link" href="#about">About</a>
+            <a class="nav-link" href="#contact">Contact</a>
+            <a class="nav-link" href="#others">Others</a>
+            <button class="button" id="modeButton" onclick="toggleMode()">Light Mode</button>
+        </div>
+    </nav>
+    <div class="stripe"></div>
+
+    
+    <div class="hero" id="home">
+        
+        <img class="profile" src="images/prof.jpg">
+        <div class="hero-text">
+            <h1>Dutch Estipona</h1>             <p class="job-title">Aspiring Web Developer</p>
+            <p class="text"> Hi! I’m a BSIT student who is interested in technology, coding, and learning new things. I enjoy playing online games, playing chess, and exploring different hobbies, especially those that help me improve my skills. My goal is to become a successful IT professional, gain more knowledge and experience, and build a better future for myself. I believe that learning is a continuous process, and I'm always willing to explore new opportunities and challenges.</p>
+            <button class="button" onclick="sayHello()">Hire Me</button>
+            <a class="button" href="#about">Learn More</a>
+        </div>
+    </div>
+
+    <main class="container">
+
+        <div id="about" class="section">
+            <h2 class="section-title">About Me</h2>
+            <p class="text">I am a BSIT student who enjoys learning new things, exploring technology, and improving my skills, especially in programming and problem-solving. Outside academics, I enjoy playing chess and online games, reading manhwa, and exploring things that spark my curiosity. I believe there’s always room to grow, and I’m motivated to keep learning, challenge myself, and work toward my dream of becoming successful and financially independent.</p>
+            <div class="row">
+                <div class="col">
+                    <p class="sub-title">Personal Details</p>
+                                                         
+                    <table border="1" width="100%">
+                        <tr><td class="cell">Full Name</td><td class="cell">Dutch Toling Estipona</td></tr>
+                        <tr><td class="cell">Age</td><td class="cell">19</td></tr>
+                        <tr><td class="cell">Birthday</td><td class="cell">September 02, 2007</td></tr>
+                        <tr><td class="cell">Gender</td><td class="cell">Male</td></tr>
+                        <tr><td class="cell">Civil Status</td><td class="cell">Single</td></tr>
+                        <tr><td class="cell">Height</td><td class="cell">163 cm</td></tr>
+                        <tr><td class="cell">Weight</td><td class="cell">52 kg</td></tr>
+                        <tr><td class="cell">Nationality</td><td class="cell">Filipino</td></tr>
+                        <tr><td class="cell">Religion</td><td class="cell">Roman Catholic</td></tr>
+                        <tr><td class="cell">Address</td><td class="cell">Manggalang-kiling, Sariaya, Quezon</td></tr>
+
+                    </table>
+                </div>
+                <div class="col">
+                    <p class="sub-title">Preferred Skills</p>
+                    <ul class="list">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Web Design</li>
+                        <li>Digital Design</li>
+                        <li>Problem Solving</li>
+                        <li>Teamwork</li>
+                        <li>Communication</li>
+                        <li>Hardworking</li>
+                        <li>SQL</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Education</h2>
+            
+            <table border="1" width="100%">
+                <tr><th class="head-cell">Level</th><th class="head-cell">School</th><th class="head-cell">Course / Track</th><th class="head-cell">Address</th><th class="head-cell">Year</th></tr>                              
+                <tr><td class="cell">Elementary</td><td class="cell">Kiling Elementary School</td><td class="cell">N/A</td><td class="cell">Manggalang-kiling, Sariaya</td><td class="cell">2013 - 2019</td></tr>
+                <tr><td class="cell">Junior High School</td><td class="cell">Tipas Integrated National Highschool</td><td class="cell">N/A</td><td class="cell">Tipaz, San Juan</td><td class="cell">2019 - 2023</td></tr>
+                <tr><td class="cell">Senior High School</td><td class="cell">Sta. Catalina National Highschool</td><td class="cell">STEM</td><td class="cell">Sta. Catalina Sur, Candelaria</td><td class="cell">2023 - 2025</td></tr>
+                <tr><td class="cell">College</td><td class="cell">CSTC</td><td class="cell">BSIT</td><td class="cell">Sariaya, Quezon</td><td class="cell">Ongoing</td></tr>              
+            </table>
+        </div>
+        
+        <div class="section">
+            <h2 class="section-title">Excellence / Awards</h2>
+            <div class="row">
+                <div class="col">
+                    <p class="sub-title">Academic Awards</p>
+                                       
+                    <ul class="list">
+                        <li>Grade 2-5 With Honors - Elementary</li>
+                        <li>Grade 10 With Honors - Junior High</li>
+                        <li>Grade 11-12 With Honors - Senior High</li>
+                        
+                        <li>Grade 1-3 Best in Mathematics</li>
+                        <li>Grade 1-3 Best in Science</li>
+                        <li>Grade 1-10 Consistent Perfect Attendance</li>                      
+                        <li>Best Capstone Project</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <p class="sub-title">Non-Academic Awards</p>                   
+                    <ul class="list">
+                        <li>Mobile Legend Barangay and Champion</li>
+                        <li>Municipal Chess Tournament - 2nd Place</li>                                              
+                        <li>Grade 10-11 Poster Making - 1st Place</li>                                               
+                        <li>Leadership Award</li>
+                        <li>Science and Math Quiz bee Participant</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+<div class="section">
+    <h2 class="section-title">Hobbies</h2>
+
+    <div class="row">
+        <div class="card"><img class="card-img" src="images/ml.jpg" alt="Hobby 1" width="100%"><p class="card-title">Playing Online Games</p></div>
+        <div class="card"><img class="card-img" src="images/manhwa.jpg" alt="Hobby 2" width="100%"><p class="card-title">Reading Manhwas</p></div>
+        <div class="card"><img class="card-img" src="images/anime.jpg" alt="Hobby 3" width="100%"><p class="card-title">Watching Anime</p></div>
+        <div class="card"><img class="card-img" src="images/music.jpg" alt="Hobby 4" width="100%"><p class="card-title">Music</p></div>
+        <div class="card"><img class="card-img" src="images/nature.jpg" alt="Hobby 5" width="100%"><p class="card-title">Nature Trip</p></div>
+        <div class="card"><img class="card-img" src="images/chess.jpg" alt="Hobby 6" width="100%"><p class="card-title">Chess</p></div>
+    </div>
+</div>
+
+<!-- WORK EXPERIENCE -->
+<div class="section">
+    <h2 class="section-title">Work Experience</h2>
+
+    <div class="row">
+        <div class="card"><p class="card-title">Part-time Cashier</p><p class="text">Alfamart | 2 months</p></div>
+        <div class="card"><p class="card-title">Service Crew</p><p class="text">Jollibee | 1 month</p></div>
+        <div class="card"><p class="card-title">Mobile Legends Pilot Service</p><p class="text">Self-employed | 2022 - 2025</p></div>
+        <div class="card"><p class="card-title">Tutor</p><p class="text">Private Tutoring / Self-Employed | 1 month</p></div>
+        <div class="card"><p class="card-title">Freelance Traditional Artist</p><p class="text">Self-Employed | Ongoing / Present</p></div>
+        <div class="card"><p class="card-title">Farm Worker</p><p class="text">Family Farm | 2017 - Present</p></div>
+    </div>
+</div>
+        
+
+<div class="section">
+    <h2 class="section-title">Projects Accomplished</h2>
+
+    <div class="project-row">
+        <div class="project-card">
+            <p class="card-title">Student Attendance System</p>
+            <p><strong>Tools Used:</strong> MySQL</p>
+        </div>
+        <div class="project-card">
+            <p class="card-title">Simple Calculator</p>
+            <p><strong>Tools Used:</strong> C++</p>
+        </div>
+    </div>
+
+    <div class="project-row">
+        <div class="project-card">
+            <p class="card-title">Personal Portfolio Website</p>
+            <p><strong>Tools Used:</strong> HTML, CSS, JavaScript</p>
+        </div>
+        <div class="project-card">
+            <p class="card-title">Facebook UI Design</p>
+            <p><strong>Tools Used:</strong> Figma</p>
+        </div>
+    </div>
+
+    <div class="project-row">
+        <div class="project-card">
+            <p class="card-title">Laptop Shop Website Design</p>
+            <p><strong>Tools Used:</strong> HTML, CSS</p>
+        </div>
+        <div class="project-card">
+            <p class="card-title">Grade Calculator</p>
+            <p><strong>Tools Used:</strong> C#</p>
+        </div>
+    </div>
+
+    <div class="project-row">
+        <div class="project-card">
+            <p class="card-title">Number Guessing Game</p>
+            <p><strong>Tools Used:</strong> C++</p>
+        </div>
+        <div class="project-card">
+            <p class="card-title">Student Information System</p>
+            <p><strong>Tools Used:</strong> C++</p>
+        </div>
+    </div>
+</div>
+        <div id="others" class="section">
+            <h2 class="section-title">Others</h2>
+
+            <p class="sub-title">My Personal Random Photo Gallery (CLICK A SMALL PHOTO)</p>
+            <div class="center">
+                <img class="big-image" id="bigImage" src="images/gallery.jpg" alt="Big Photo">
+<br>
+
+<img class="thumb" src="images/cover.jpg" alt="Photo 1" onclick="document.getElementById('bigImage').src='images/pic1.jpg'">
+<img class="thumb" src="images/cover.jpg" alt="Photo 2" onclick="document.getElementById('bigImage').src='images/pic2.jpg'">
+<img class="thumb" src="images/cover.jpg" alt="Photo 3" onclick="document.getElementById('bigImage').src='images/pic3.jpg'">
+<img class="thumb" src="images/cover.jpg" alt="Photo 4" onclick="document.getElementById('bigImage').src='images/pic4.jpg'">
+<img class="thumb" src="images/cover.jpg" alt="Photo 5" onclick="document.getElementById('bigImage').src='images/pic5.jpg'">
+<img class="thumb" src="images/cover.jpg" alt="Photo 6" onclick="document.getElementById('bigImage').src='images/pic6.jpg'">
+<img class="thumb" src="images/cover.jpg" alt="Photo 7" onclick="document.getElementById('bigImage').src='images/pic7.jpg'">
+<img class="thumb" src="images/cover.jpg" alt="Photo 8" onclick="document.getElementById('bigImage').src='images/pic8.jpg'">
+<img class="thumb" src="images/cover.jpg" alt="Photo 9" onclick="document.getElementById('bigImage').src='images/pic9.jpg'">
+<img class="thumb" src="images/cover.jpg" alt="Photo 10" onclick="document.getElementById('bigImage').src='images/pic10.jpg'">
+<img class="thumb" src="images/cover.jpg" alt="Photo 11" onclick="document.getElementById('bigImage').src='images/pic11.jpg'">
+<img class="thumb" src="images/cover.jpg" alt="Photo 12" onclick="document.getElementById('bigImage').src='images/pic12.jpg'">
+<img class="thumb" src="images/cover.jpg" alt="Photo 13" onclick="document.getElementById('bigImage').src='images/13.jpg'">
+<img class="thumb" src="images/cover.jpg" alt="Photo 14" onclick="document.getElementById('bigImage').src='images/14.jpg'">
+<img class="thumb" src="images/cover.jpg" alt="Photo 15" onclick="document.getElementById('bigImage').src='images/15.jpg'">
+<img class="thumb" src="images/cover.jpg" alt="Photo 16" onclick="document.getElementById('bigImage').src='images/16.jpg'">
+<img class="thumb" src="images/cover.jpg" alt="Photo 17" onclick="document.getElementById('bigImage').src='images/17.jpg'">
+<img class="thumb" src="images/cover.jpg" alt="Photo 18" onclick="document.getElementById('bigImage').src='images/18.jpg'">
+<img class="thumb" src="images/cover.jpg" alt="Photo 19" onclick="document.getElementById('bigImage').src='images/19.jpg'">
+<img class="thumb" src="images/cover.jpg" alt="Photo 20" onclick="document.getElementById('bigImage').src='images/20.jpg'">
+<img class="thumb" src="images/cover.jpg" alt="Photo 21" onclick="document.getElementById('bigImage').src='images/21.jpg'">
+<img class="thumb" src="images/cover.jpg" alt="Photo 22" onclick="document.getElementById('bigImage').src='images/22.jpg'">
+<img class="thumb" src="images/cover.jpg" alt="Photo 23" onclick="document.getElementById('bigImage').src='images/23.jpg'">
+<img class="thumb" src="images/cover.jpg" alt="Photo 24" onclick="document.getElementById('bigImage').src='images/24.jpg'">
+<img class="thumb" src="images/cover.jpg" alt="Photo 25" onclick="document.getElementById('bigImage').src='images/25.jpg'">
+<img class="thumb" src="images/cover.jpg" alt="Photo 26" onclick="document.getElementById('bigImage').src='images/26.jpg'">
+<img class="thumb" src="images/cover.jpg" alt="Photo 27" onclick="document.getElementById('bigImage').src='images/27.jpg'">
+<img class="thumb" src="images/cover.jpg" alt="Photo 28" onclick="document.getElementById('bigImage').src='images/28.jpg'">
+<img class="thumb" src="images/cover.jpg" alt="Photo 29" onclick="document.getElementById('bigImage').src='images/29.jpg'">
+<img class="thumb" src="images/cover.jpg" alt="Photo 30" onclick="document.getElementById('bigImage').src='images/30.jpg'">
+            </div>
+
+            <p class="sub-title">My Motto</p>
+            <div class="motto-box" id="motto">Click the button below to see my motto.</div>
+            <div class="center">
+                <button class="button" onclick="showMotto()">Show My Motto</button>
+                <button class="button" onclick="window.print()">Print My Portfolio</button>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="footer" id="contact">
+        <h2 class="footer-title">Contact Me</h2>
+        <div class="row">
+            <div class="contact-item">Phone: <a class="footer-link" href="tel:+630000000000">+63 981 356 0536</a></div>
+            <div class="contact-item">Email: <a class="footer-link" href="mailto: dutchtestipona@gmail.com">dutchtestipona@gmail.com</a></div>
+            <div class="contact-item">Facebook: <a class="footer-link" href="https://www.facebook.com/d.ckrmn000">Dutch Estipona</a></div>
+            <div class="contact-item">Instagram: <a class="footer-link" href="https://www.instagram.com/d_ckrmn?psln=MXVxd2l3bzVvbmhtaA==">@d_ckrmn</a></div>          
+            <div class="contact-item">TikTok: <a class="footer-link" href="https://www.tiktok.com/@datsh_ackerman?_r=1&_t=ZS-9BC3df4fGJW">@datsh_ackerman</a></div>
+            <div class="contact-item">Address: Manggalang-kiling, Sariaya, Quezon</div>
+        </div>
+        <p class="text">&copy; 2026 Dutch Estipona. All Rights Reserved. | <a class="footer-link" href="welcome.html">Back to Welcome Page</a></p>
+    </footer>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
